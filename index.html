@@ -12,7 +12,7 @@
 		  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 		  
-		  <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
+		  <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,700;1,700&family=Open+Sans:ital,wght@0,300;1,300&display=swap" rel="stylesheet">
 		  
 		<style>
 			/*
@@ -26,10 +26,13 @@
 			  --pink-color: #FF4993;
 			  --yellow-color: #FFF200;
 			  --dark-gray-color: #1D2B2A;
+			  --bs-font-sans-serif: 'Open Sans', sans-serif;
+			  --bs-body-font-weight: 300;
 			}
 			a { color: var(--dark-blue-color); }
 			a:hover { color: var(--pink-color); }
 			h1, h2, h3, h4, h5, h6 { font-family: 'Merriweather', serif; }
+
 			
 			.btn-outline-primary { color: var(--dark-blue-color); border-color: var(--dark-blue-color); }
 			.btn-outline-primary:hover,
@@ -79,9 +82,7 @@
 				.nav-wrap hr { display: none; }
 				.mobile_nav_wrapper { display: flex; align-content: center; justify-content: space-between; align-items: center;}
 				.us-content { margin: 2rem 0.5rem; }
-			}
-			@media (max-width:550px) {
-				.logo_cont { width: 65%; }
+				.kk-logo { max-width: 65vw; }
 			}
 		</style>
 		
@@ -93,7 +94,7 @@
 		<div class="page-wrapper">
 			<div class="nav-wrap p-3 bg-light">
 				<div class="mobile_nav_wrapper navbar-light">
-				  <img src="kady-logo.png" alt="Kady Kids logo" class="img-fluid align-items-center me-md-auto" />
+				  <img src="kady-logo.png" alt="Kady Kids logo" class="img-fluid align-items-center me-md-auto kk-logo" />
 				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#usrsnavtoggle" aria-controls="usrsnavtoggle" aria-expanded="false" aria-label="Toggle navigation">
 				  <span class="navbar-toggler-icon"></span>
 				</button></div>
