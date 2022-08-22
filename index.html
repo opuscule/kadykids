@@ -425,17 +425,17 @@
 										<form name="contact" method="POST" data-netlify="true" data-netlify-recaptcha="true">
 											<div class="row mb-2">
 												<div class="form-check col ms-3">
-													<input class="form-check-input" type="checkbox" value="" id="full-time-nanny">
+													<input name="ServiceRequested" class="form-check-input" type="checkbox" value="" id="full-time-nanny">
 													<label class="form-check-label" for="full-time-nanny">Full-Time Nanny</label>
 												</div>
 												<div class="form-check col ms-3">
-													<input class="form-check-input" type="checkbox" value="" id="part-time-nanny">
+													<input name="ServiceRequested" class="form-check-input" type="checkbox" value="" id="part-time-nanny">
 													<label class="form-check-label" for="part-time-nanny">Part-Time Nanny</label>
 												</div>
 											</div>
 											<div class="row mb-2">
 												<div class="form-check col ms-3">
-													<input class="form-check-input" type="checkbox" value="" id="nanny-share">
+													<input name="ServiceRequested" class="form-check-input" type="checkbox" value="" id="nanny-share">
 													<label class="form-check-label" for="nanny-share">Nanny Share</label>
 												</div>
 												<div class="form-check col ms-3">
@@ -445,16 +445,16 @@
 											</div>
 											<div class="row mb-3">
 												<div class="form-check col ms-3">
-													<input class="form-check-input" type="checkbox" value="" id="newborn-care-specialist">
+													<input name="ServiceRequested" class="form-check-input" type="checkbox" value="" id="newborn-care-specialist">
 													<label class="form-check-label" for="newborn-care-specialist">Newborn Care Specialist</label>
 												</div>
 											</div>
 											<div class="form-floating mb-3">
-												<input type="text" class="form-control" id="your-name" placeholder="Your Name" aria-describedby="YourName" required>
+												<input type="text" name="Name" class="form-control" id="your-name" placeholder="Your Name" aria-describedby="YourName" required>
 												<label for="your-name">Your Name</label>
 											</div>
 											<div class="form-floating mb-3">
-												<input type="tel" class="form-control" id="your-phone" placeholder="Phone Number" aria-describedby="PhoneNumber" required>
+												<input type="tel" name="PhoneNumber" class="form-control" id="your-phone" placeholder="Phone Number" aria-describedby="PhoneNumber" required>
 												<label for="your-phone">Phone Number</label>
 											</div>
 											<div data-netlify-recaptcha="true"></div>
