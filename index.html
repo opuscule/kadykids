@@ -175,6 +175,7 @@
 				  <li><a href="#about" class="nav-link link-dark "><span class="material-icons md-6">woman</span>About Kady</a></li>
 				  <li><a href="#services" class="nav-link link-dark"><span class="material-icons md-6">stroller</span>Services</a></li>
 				  <li><a href="#referral-services" class="nav-link link-dark"><span class="material-icons md-6">task</span>Referral Services</a></li>
+				  <li><a href="#rates" class="nav-link link-dark"><span class="material-icons md-6">paid</span>Rates</a></li>
 				  <li><a href="#contact" class="nav-link link-dark"><span class="material-icons md-6">phone</span>Contact</a></li>
 				</ul>
 				</div>
@@ -346,7 +347,13 @@
 									</div>
 								</div>
 								
-								
+								<div class="row" id="rates">
+									<div class="col">
+										<h2 class="text-center">Rates</h2>
+										<div class="short-sep ms-auto me-auto"></div>
+										<p class="text-center">Contact me for current rates.</p>
+									</div>
+								</div>
 								
 								
 								
@@ -403,7 +410,7 @@
 								<div class="row mt-5" id="contact">
 									<div class="col-lg-5">
 										<h2>Contact Kady</h2>
-										<div class="contact-info ms-2">
+										<div class="contact-info ms-2 mt-2">
 											<p class="material-icons">phone</p>
 											<p><a href="tel:+16467276796">646-727-6796</a></p>
 											<p class="material-icons">email</p>
@@ -413,9 +420,9 @@
 										</div>
 										
 									</div>
-									<div class="col-lg-5">
+									<div class="col-lg-5 mt-5 mt-sm-0">
 										<h4 class="mb-2">How can I help you?</h4>
-										<form>
+										<form name="contact" method="POST" data-netlify="true" data-netlify-recaptcha="true">
 											<div class="row mb-2">
 												<div class="form-check col ms-3">
 													<input class="form-check-input" type="checkbox" value="" id="full-time-nanny">
@@ -450,6 +457,7 @@
 												<input type="tel" class="form-control" id="your-phone" placeholder="Phone Number" aria-describedby="PhoneNumber" required>
 												<label for="your-phone">Phone Number</label>
 											</div>
+											<div data-netlify-recaptcha="true"></div>
 											<button type="submit" class="btn btn-outline-primary">Submit</button>
 										</form>
 									</div>
